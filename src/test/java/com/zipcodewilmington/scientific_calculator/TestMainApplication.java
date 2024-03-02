@@ -10,11 +10,27 @@ import static org.junit.Assert.assertEquals;
  */
 public class TestMainApplication {
     @Test;
-    public void compare(){
-        Basics basicTests = new Basics();
-        int value = basicTests.compare();
-        Assert.assertEquals();
-
-
+    public void addition(){
+        ScienceCalc basicTests = new ScienceCalc();
+        assertEquals(4, switchDisplayMode());
     }
+
+    @Test;
+    public void addition(){
+        ScienceCalc basicTests = new ScienceCalc();
+        assertEquals(4, switchDisplayMode());
+    }
+
+    @Test;
+    public void addition(){
+        ScienceCalc basicTests = new ScienceCalc();
+        assertEquals(4, switchDisplayMode());
+    }
+
+    @Test;
+    public void addition(){
+        ScienceCalc basicTests = new ScienceCalc();
+        assertEquals(4, switchDisplayMode());
+    }
+
 }
