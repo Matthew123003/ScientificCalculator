@@ -21,11 +21,10 @@ public class Console {
         String userInput = scanner.nextLine();
         return userInput;
     }
-// Trey Bruton
 
     public static void menu() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("What would you like to do?");
+        System.out.println("Welcome to Our Calculator! OPTIONS: Addition, Subtraction, Multiplication, Division, Squareroot");
         String entry = scanner.nextLine(); // this is what creates the menu entry
         if ("Addition".equals(entry)) { // user will enter "addition" and menu will ask for two doubles
             System.out.println("Type your first number.");
@@ -65,11 +64,13 @@ public class Console {
             System.out.println("Error!");
         }
     }
-}
-    /* public static Double getDoubleInput(String prompt) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("What is your current number?");
-        double value = scanner.nextDouble();
-        return value; */
 
-// Trey Bruton
+}
+
+
+
+
+        // A statement that accepts input, or a scanner
+        // The input accepted needs to be a string of the operation you would like to perform
+
+
